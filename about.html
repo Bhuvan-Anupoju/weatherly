@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Weatherly</title>
+    <style>
+      /* ======= Navigation Bar Styles ======= */
+      header {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .navbar {
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        color: white;
+        position: relative;
+      }
+
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        transition: max-height 0.4s ease-in-out;
+      }
+
+      .nav-links li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s;
+      }
+
+      .nav-links li a:hover {
+        color: #90e0ef;
+      }
+
+      .hamburger {
+        display: none;
+        font-size: 26px;
+        cursor: pointer;
+      }
+
+      .nav-toggle {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .hamburger {
+          display: block;
+        }
+
+        .nav-links {
+          position: absolute;
+          top: 60px;
+          right: 0;
+          background-color: rgba(0, 0, 0, 0.9);
+          width: 100%;
+          max-height: 0;
+          overflow: hidden;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .nav-links li {
+          margin: 15px 0;
+        }
+
+        .nav-toggle:checked + .hamburger + .nav-links {
+          max-height: 300px;
+        }
+      }
+
+      /* ======= About Page Styles ======= */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        color: white;
+      }
+
+      .about-section {
+        max-width: 900px;
+        margin: 20px auto 40px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      }
+
+      .about-section h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .about-section p {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+        color: #e0e0e0;
+      }
+
+      .about-highlight {
+        font-weight: bold;
+        color: #90e0ef;
+      }
+
+      @media (max-width: 600px) {
+        .about-section h1 {
+          font-size: 28px;
+        }
+
+        .about-section p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ======= Navigation Bar ======= -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">⛅ Weatherly</div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">&#9776;</label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="location.html">My Locations</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ======= About Section ======= -->
+    <section class="about-section">
+      <h1>About Weatherly</h1>
+      <p>
+        <span class="about-highlight">Weatherly</span> is a simple and
+        user-friendly weather web app that helps you track the current weather
+        of any city in real-time. Built with modern web technologies, Weatherly
+        provides essential weather information in a clean and accessible format.
+      </p>
+      <p>
+        Just type the name of a city, and Weatherly will fetch live data
+        including <span class="about-highlight">temperature</span>,
+        <span class="about-highlight">humidity</span>,
+        <span class="about-highlight">wind speed</span>, and a brief
+        <span class="about-highlight">weather description</span>.
+      </p>
+      <p>
+        Whether you're planning a trip, checking your hometown, or just curious
+        about the weather somewhere else, Weatherly offers a quick and intuitive
+        way to stay informed.
+      </p>
+      <p>
+        This project uses the
+        <span class="about-highlight">OpenWeatherMap API</span> to deliver
+        reliable and accurate weather updates from around the world.
+      </p>
+    </section>
+  </body>
+</html>
