@@ -5,16 +5,18 @@
 ## Live Website
 #### 🚀Experience Weatherly in Live!
 🔗Live Demo :
-[Weatherly Live Link](https://bhuvan-anupoju.github.io/weatherly/)
+[Weatherly Live Link!](https://bhuvan-anupoju.github.io/weatherly/)
 ## Project Banner
 ![Banner](https://github.com/user-attachments/assets/ba5c8242-524e-4945-89b0-d7966e1dec0f)
 ## Features
 
 - 🌦️ Real-time Weather Data: Displays current weather information based on user-inputted city names.
+ 
 
 - 🔎 City Search Functionality: Users can enter any city name to get the latest weather updates.
 
 - ⭐ My Locations Locations: Users can save their favorite cities to the "My Locations" page for quick access.
+  
 
 - 📱 Fully Responsive Design: Optimized for desktop, tablet, and mobile devices.
 
@@ -35,4 +37,4 @@
 Hi, I'm Bhuvan, a passionate web developer with a strong foundation in HTML, CSS, and JavaScript. I enjoy building responsive and user-friendly web applications. I'm always eager to learn new technologies and enhance my skills to create meaningful digital experiences.
 ## 🔗 Contact me on
 - [LinkedIn](https://www.linkedin.com/in/bhuvan-anupoju/)
- - [My Portfolio](https://bhuvan-anupoju.github.io/Bhuvan.dev/)
+- [My Portfolio](https://bhuvan-anupoju.github.io/Bhuvan.dev/)
