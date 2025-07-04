@@ -5,7 +5,7 @@
 ## Live Website
 #### 🚀Experience Weatherly in Live!
 🔗Live Demo :
-[Weatherly Live Link!](https://bhuvan-anupoju.github.io/weatherly/)
+[Weatherly Live Link](https://bhuvan-anupoju.github.io/weatherly/)
 ## Project Banner
 ![Banner](https://github.com/user-attachments/assets/ba5c8242-524e-4945-89b0-d7966e1dec0f)
 ## Features
